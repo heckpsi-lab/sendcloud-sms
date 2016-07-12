@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/heckpsi-lab/sendcloud-sms'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency 'rest-client'
+  s.add_runtime_dependency 'rest-client', '>= 1.8.0'
 end
