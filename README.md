@@ -117,7 +117,7 @@ SendCloud::SMS.send_voice('18000000000', '1234')
 
 The method returns an integer as code of response. Check the following list for details.
 
-| Return Code | 含义                                       |
+| Return Code | Meaning                                  |
 | ----------- | ---------------------------------------- |
 | 200         | OK                                       |
 | 311         | Parts of numbers delivered               |
