@@ -113,3 +113,40 @@ SendCloud::SMS.send_voice(phone, code)
 SendCloud::SMS.send_voice('18000000000', '1234')
 ```
 
+### Return
+
+The method returns an integer as code of response. Check the following list for details.
+
+| Return Code | 含义                                       |
+| ----------- | ---------------------------------------- |
+| 200         | OK                                       |
+| 311         | Parts of numbers delivered               |
+| 411         | Phone number should not be empty         |
+| 412         | Wrong phone numbers                      |
+| 413         | Duplicated phone numbers                 |
+| 421         | Bad signature parameter                  |
+| 422         | Bad signature                            |
+| 431         | Template not found                       |
+| 432         | Template not examined yet                |
+| 433         | Template ID is empty                     |
+| 441         | Wrong parameters                         |
+| 451         | Wrong sending time                       |
+| 452         | Sending time has passed                  |
+| 461         | Invalid Unix timestamp                   |
+| 471         | smsUser not exist                        |
+| 472         | smsUser is empty                         |
+| 473         | No permission to send SMS                |
+| 474         | User not found                           |
+| 481         | Phone number or vars is empty            |
+| 482         | Phone number or vars is invalid          |
+| 483         | Vars longer than 32 chars                |
+| 496         | Too many SMS for one phone number in one minute |
+| 498         | Too many SMS for one phone number in one day |
+| 499         | Out of balance                           |
+| 501         | Server Error                             |
+
+## Roadmap
+
+- Support timing SMS
+- Add spec to get 100% code covered
+- Support SMS Hook
