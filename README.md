@@ -1,7 +1,7 @@
 # Sendcloud SMS
 ## Brief
 
-`sendcloud-sms` an unofficial support for developers to send SMS with SendCloud API in Ruby. The gem package the official Restful API to a better ruby-style methods.
+`sendcloud-sms` an unofficial support for developers to send SMS with SendCloud API in Ruby. The gem packaged the official Restful API to a better ruby-style methods.
 
 ## Installation
 
